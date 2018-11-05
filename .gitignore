@@ -1,0 +1,8 @@
+# env
+.env
+
+# credentials
+.client_secret.json
+
+# pipfile.lock
+Pipfile.lock
