@@ -6,7 +6,7 @@ from google.oauth2 import service_account
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 
 SAMPLE_SPREADSHEET_ID = '1wguriaDRPzJaYQo4avyYn7r9A3g09NVAF-QFFwelTfc'
-RANGE_NAME = 'today!A2:B'
+RANGE_NAME = 'today!A2:B' # Spreadsheet name! range
 
 def main():
     GOOGLE_APPLICATION_CREDENTIALS = os.environ.get('GOOGLE_APPLICATION_CREDENTIALS', None)
